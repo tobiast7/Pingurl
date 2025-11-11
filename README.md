@@ -18,3 +18,16 @@ Under "Manage access", klicka på knapped "Add people".
 Skriv "jimpa" och tryck på knappen "Add jimpa".
 
 När detta är gjort, skicka mig ett email med länken till ditt nya repository.
+
+## Bygga applikationen
+Se till att ha Java 25 installerat.
+
+```
+./mvnw clean package
+```
+
+## Köra applikationen
+
+```
+java -jar target/pingurl-0.0.1-SNAPSHOT.jar
+```
