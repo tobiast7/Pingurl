@@ -1,3 +1,5 @@
+package se.nackademin.devops24.pingurl.repository;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import se.nackademin.devops24.pingurl.model.PingedURL;
